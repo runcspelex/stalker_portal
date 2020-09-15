@@ -2,7 +2,6 @@ FROM php:5-apache
 
 ADD ./etc/ /etc/
 WORKDIR /
-
 # Prepare
 RUN apt-get update
 RUN apt-get dist-upgrade -y
